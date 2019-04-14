@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
 //                담겨있던 내용을 가져다가 내용 TextView의 text로 집어넣음 (set).
                 contentTextView.setText(userInputStr);
 
-
                 Toast.makeText(MainActivity.this, "입력값이 반영되었습니다.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "두번째 토스트", Toast.LENGTH_LONG).show();
             }
         });
 
